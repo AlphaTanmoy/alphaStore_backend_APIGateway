@@ -1,5 +1,7 @@
 package com.alphaStore.APIGateway.seeder
 
+import com.alphaStore.Core.contracts.CountryRepoAggregatorContract
+import com.alphaStore.Core.entity.Country
 import org.springframework.stereotype.Component
 
 @Component
