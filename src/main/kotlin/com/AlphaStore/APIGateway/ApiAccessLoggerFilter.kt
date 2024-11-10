@@ -46,39 +46,39 @@ class ApiAccessLoggerFilter(
         ) {
             ApiTire.OPEN
         }else if (
-            checkIfAccessControlIsInTire(KeywordsAndConstants.apisTireTen, exchange.request.path.toString())
+            checkIfAccessControlIsInTire(KeywordsAndConstants.APIS_TIRE_TEN, exchange.request.path.toString())
         ) {
             ApiTire.TIRE_TEN
         }else if (
-            checkIfAccessControlIsInTire(KeywordsAndConstants.apisTireTen, exchange.request.path.toString())
+            checkIfAccessControlIsInTire(KeywordsAndConstants.APIS_TIRE_NINE, exchange.request.path.toString())
         ) {
             ApiTire.TIRE_NINE
         } else if (
-            checkIfAccessControlIsInTire(KeywordsAndConstants.apisTireNine, exchange.request.path.toString())
+            checkIfAccessControlIsInTire(KeywordsAndConstants.APIS_TIRE_EIGHT, exchange.request.path.toString())
         ) {
             ApiTire.TIRE_EIGHT
         }else if (
-            checkIfAccessControlIsInTire(KeywordsAndConstants.apisTireEight, exchange.request.path.toString())
+            checkIfAccessControlIsInTire(KeywordsAndConstants.APIS_TIRE_SEVEN, exchange.request.path.toString())
         ) {
             ApiTire.TIRE_SEVEN
         } else if (
-            checkIfAccessControlIsInTire(KeywordsAndConstants.apisTireSeven, exchange.request.path.toString())
+            checkIfAccessControlIsInTire(KeywordsAndConstants.APIS_TIRE_SIX, exchange.request.path.toString())
         ) {
             ApiTire.TIRE_SIX
         } else if (
-            checkIfAccessControlIsInTire(KeywordsAndConstants.apisTireSix, exchange.request.path.toString())
+            checkIfAccessControlIsInTire(KeywordsAndConstants.APIS_TIRE_FIVE, exchange.request.path.toString())
         ) {
             ApiTire.TIRE_FIVE
         } else if (
-            checkIfAccessControlIsInTire(KeywordsAndConstants.apisTireFive, exchange.request.path.toString())
+            checkIfAccessControlIsInTire(KeywordsAndConstants.APIS_TIRE_FOUR, exchange.request.path.toString())
         ) {
             ApiTire.TIRE_FOUR
         } else if (
-            checkIfAccessControlIsInTire(KeywordsAndConstants.apisTireThree, exchange.request.path.toString())
+            checkIfAccessControlIsInTire(KeywordsAndConstants.APIS_TIRE_THREE, exchange.request.path.toString())
         ) {
             ApiTire.TIRE_THREE
         } else if (
-            checkIfAccessControlIsInTire(KeywordsAndConstants.apisTireTwo, exchange.request.path.toString())
+            checkIfAccessControlIsInTire(KeywordsAndConstants.APIS_TIRE_TWO, exchange.request.path.toString())
         ) {
             ApiTire.TIRE_TWO
         } else {
